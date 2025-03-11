@@ -122,6 +122,7 @@ func main() {
 	monitor, err := NewMonitor()
 	if err != nil {
 		log.Fatalf("Failed to create monitor: %v", err)
+		fmt.Println("Press Ctrl+C to stop monitoring")
 	}
 
 	// Get directory to monitor from command line args or use current directory

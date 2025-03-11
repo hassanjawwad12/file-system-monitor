@@ -11,6 +11,9 @@ A robust and efficient file system monitoring tool written in Go that tracks and
 - Timestamp-based event tracking
 - Clean shutdown handling with signal interrupts
 
+## Working 
+<img src="working.png" />
+
 ## Installation
 
 ### Prerequisites
